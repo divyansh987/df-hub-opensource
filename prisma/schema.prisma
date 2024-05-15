@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env(postgresql://app:O60exOgg0z28D2JCxrB74C72@unduly-comic-drake.a1.pgedge.io/defaultdb?sslmode=require)
+  url      = "postgresql://app:O60exOgg0z28D2JCxrB74C72@unduly-comic-drake.a1.pgedge.io/defaultdb?sslmode=require"
 }
 
 model Example {
